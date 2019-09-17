@@ -1,0 +1,49 @@
+
+
+.fund input {
+    // width: 40px;
+    width: 75%;
+    border: none;
+    border-radius: 1px;
+    // background-color: $wwm-gold-light;
+    background-color: $transparent;
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+}
+
+.fund #market-value {
+    margin-left: 0.2rem;
+}
+
+.fund #fee-base {
+    margin-right: 0.2rem;
+}
+
+.fund td {
+    vertical-align: middle;
+}
+
+.fee-badge {
+    background-color: $wwm-gold;
+    // color: $wwm-navy;
+    color: white;
+}
+
+.fund .editable {
+    background-color: $wwm-gold-light;
+}
+
+.fund .editable:hover {
+    background-color: $wwm-gold-medium;
+    // input {
+    //     background-color: $transparent;
+    // }
+}
+
+#market-value, #fee-base {
+    min-width: 75%; // to match the width of .fund input
+    text-align: right;
+}
+
+// #market-value {
+//     text-align: right;
+// }

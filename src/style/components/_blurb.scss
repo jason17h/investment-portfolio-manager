@@ -1,0 +1,64 @@
+// .blurb {
+//     border: 3px solid black;
+// }
+
+.blurb {
+    width: 100%!important;
+}
+
+.blurb-content {
+    border: 3px solid $wwm-gold;
+    background-color: $wwm-gold-light;
+    padding: 10px;
+    width: 100%;
+    // margin-left: auto;
+    // margin-right: 0;
+}
+
+.blurb-detail {
+    max-width: 50%;
+}
+
+.blurb th, .blurb td {
+    padding: 0.5rem;
+}
+
+.blurb th {
+    background-color: $wwm-gold;
+    font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    font-size: 1.1rem;
+    // text-align: center;
+}
+
+.blurb-content tbody tr:hover {
+    background-color:$wwm-gold-light;
+}
+
+.blurb-content td {
+    padding: 0.5rem;
+}
+
+.blurb-input .input {
+    // background-color: $wwm-gold-light; // change this to transparent if its ugly
+    background-color: $transparent;
+    color: black;
+    display: inline-block;
+    border: none;
+}
+
+.blurb-input .input:active, .blurb-input .input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.blurb-input {
+    background-color: $wwm-gold-light;
+}
+
+.blurb-input:hover {
+    background-color: $wwm-gold-light;
+}
+
+#blurb-hst-gst {
+    width: 4rem;
+}

@@ -1,0 +1,25 @@
+.analysis {
+    width: 100%;
+}
+
+.analysis .card {
+    transition: border-color 0.15s ease-in-out;
+    min-height: 100%;
+}
+
+.analysis .card:hover {
+    border-color: $wwm-gold;
+}
+
+#analysis-title {
+    background-color: $wwm-navy;
+    padding: 1.5rem;
+    border-bottom: $wwm-gold 5px solid;
+    font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    color: white;
+}
+
+.analysis thead {
+    font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+}
+

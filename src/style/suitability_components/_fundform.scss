@@ -1,0 +1,30 @@
+.fundform {
+    vertical-align: middle;
+}
+
+.fundform .error {
+    color: red;
+}
+
+.fundform-form {
+    display: table;
+    vertical-align: middle;
+}
+
+.fundform-element {
+    background-color: $wwm-gold-light;
+    padding: 0.5rem;
+}
+
+.fundform-button {
+    background-color: $wwm-blue;
+    border-color: $wwm-blue;
+}
+
+.fundform-button:hover, .fundform-button:focus, .fundform-button:active {
+    background-color: $wwm-navy;
+}
+
+.fundform-button:focus {
+    box-shadow: $wwm-navy-light;
+}

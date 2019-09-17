@@ -1,0 +1,23 @@
+.total {
+    background-color: $wwm-gold-light;
+    border-top: $wwm-gold solid 3px;
+}
+
+.total td {
+    vertical-align: middle;
+}
+
+.total input {
+    // width: 40px;
+    width: 70%;
+    border: none;
+    border-radius: 1px;
+    // background-color: $wwm-gold-light;
+    text-align: right;
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+    margin-left: 0.2rem;
+}
+
+#clear-funds-button {
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.difference {
+    border: 3px solid $wwm-gold;
+    background-color: $wwm-gold-light;
+    padding: 10px;
+    width: 100%;
+    height: 100%!important;
+}
+
+.difference th, .difference td {
+    padding: 0.5rem;
+}
+
+.difference .data {
+    background-color: $wwm-gold-light;
+}
+
+.difference th {
+    background-color: $wwm-gold;
+    font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    font-size: 1.1rem;
+}

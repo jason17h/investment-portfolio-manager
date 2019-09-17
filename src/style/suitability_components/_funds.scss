@@ -1,0 +1,27 @@
+.funds {
+    transition: border-color 0.15s ease-in-out;
+    width: 100%;
+}
+
+.funds table {
+    border-top: none;
+}
+
+.funds thead {
+    // border-top: $wwm-gold solid 3px;
+    border-bottom: $wwm-gold solid 3px;
+    font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+}
+
+.funds:hover {
+    border-color: $wwm-gold;
+}
+
+#funds-title {
+    background-color: $wwm-navy;
+    padding: 1.5rem;
+    border-bottom: $wwm-gold 5px solid;
+    font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    color: white;
+}
+

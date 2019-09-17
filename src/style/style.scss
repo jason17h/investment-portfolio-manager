@@ -1,0 +1,24 @@
+@import './base/settings';
+@import './base/base';
+
+@import '~bootstrap/scss/bootstrap';
+@import './components/blurb';
+@import './components/total';
+@import './components/difference';
+@import './components/fund';
+@import './components/funds';
+@import './components/addfund';
+@import './components/fundform';
+@import './components/header';
+@import './components/costchart';
+@import './suitability_components/total';
+@import './suitability_components/fund';
+@import './suitability_components/funds';
+@import './suitability_components/addfund';
+@import './suitability_components/fundform';
+@import './suitability_components/analysis';
+@import './suitability_components/blurb_targets';
+@import './suitability_components/header';
+@import './suitability_components/disclaimer';
+
+

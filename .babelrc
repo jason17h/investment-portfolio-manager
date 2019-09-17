@@ -1,0 +1,19 @@
+// now that we are using webpack to configure babel, we need to specify presets here
+
+{
+    "presets": [
+        // "env",
+        // "react"
+        "@babel/env",
+        "@babel/react"
+    ],
+    "plugins": [
+        // "transform-class-properties",
+        // "transform-object-rest-spread"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread"
+    ],
+    // "test": [
+    //     "jest"
+    // ]
+}

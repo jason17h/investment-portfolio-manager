@@ -1,0 +1,33 @@
+.total {
+    // background-color: $wwm-navy;
+    // color: rgb(221, 221, 221);
+    background-color: $wwm-gold-light;
+    border-top: $wwm-gold solid 3px;
+    vertical-align: middle;
+    // background-color: $wwm-navy;
+    // color: white;
+}
+
+.total td {
+    vertical-align: middle;
+}
+
+// #total-market-value {
+//     width: 75%!important;
+//     border: red 2px solid;
+//     text-align: right;
+//     margin-right: 0px;
+// }
+
+.total input {
+    width: 75%;
+    border: none;
+    border-radius: 1px;
+    text-align: right;
+    background-color: $transparent;
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+}
+
+#clear-funds-button {
+    width: 100%;
+}

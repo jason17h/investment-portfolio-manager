@@ -1,0 +1,72 @@
+.blurb, .targets {
+    height: 100%;
+}
+
+.blurb-form, .targets-form {
+    height: 100%;
+}
+
+.blurb-content, .targets-content {
+    border: 3px solid $wwm-gold;
+    background-color: $wwm-gold-light;
+    // padding: 1rem;
+    width: 100%;
+    height: 100%;
+    // margin-left: auto;
+    // margin-right: 0;
+}
+
+.blurb-content tbody tr:hover, .targets-content tbody tr:hover {
+  background-color: $wwm-gold-light;
+}
+
+.blurb-content td, .targets-content td {
+    // padding: 0.5rem;
+    padding-left: 0.5rem;
+    // padding-right: 0.5rem;
+}
+
+.blurb-content th, .targets-content th {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: $wwm-gold;
+    font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    font-weight:bold!important;
+    font-size:1.1rem;
+}
+
+.notes th {
+    text-align: left;
+}
+
+.blurb .input, .targets .input {
+    background-color: $transparent;
+    color: black;
+    border: none;
+}
+
+.targets .input {
+    width: 4rem;
+}
+
+.targets-input .input {
+    display: inline-block;
+}
+
+.blurb-input .input:active, .blurb-input .input:focus, .targets-input .input:active, .targets-input .input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.blurb-input, .targets-input {
+    background-color: $wwm-gold-light;
+}
+
+.targets-total {
+    font-weight: bold;
+    background-color: $wwm-gold-light;
+}
+
+.targets-total .input {
+    font-weight: bold;
+}

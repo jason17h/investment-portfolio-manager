@@ -1,0 +1,23 @@
+.fund input {
+    // width: 40px;
+    width: 70%;
+    border: none;
+    border-radius: 1px;
+    // background-color: $wwm-gold-light;
+    text-align: right;
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.fund td {
+    vertical-align: middle;
+}
+
+.fund .editable {
+    background-color: $wwm-gold-light;
+}
+
+
+.fund .editable:hover {
+    background-color: $wwm-gold-medium;
+}
